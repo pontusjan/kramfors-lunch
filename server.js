@@ -15,10 +15,6 @@ app.get('/login', function(req, res){
     res.render('login');
 });
 
-app.post('/login', function(req, res){
-    res.send('Logging in');
-});
-
 app.get('/user', function(req, res){
     res.render('user');
 });
